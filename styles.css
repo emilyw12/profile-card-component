@@ -1,0 +1,162 @@
+
+/* =======
+  Reset
+======== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+p,
+ul {
+  margin: 0;
+}
+
+/* =============
+  Global styles
+================ */
+.page {
+	font-size: 1.125rem;
+	font-family: "Kumbh Sans", sans-serif;
+	font-weight: 400;
+	background-color: hsl(185, 75%, 39%);
+	min-height: 100vh;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+/* =============
+  Page decorations
+================ */
+
+.page::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 80%;
+	top: -45%;
+	left: -40%;
+	background-image: url("images/bg-pattern-top.svg");
+	background-size: cover;
+	background-position: bottom right;
+	z-index: -1;
+}
+
+.page::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 80%;
+	bottom: -45%;
+	right: -40%;
+	background-image: url("images/bg-pattern-bottom.svg");
+	background-size: cover;
+	z-index: -1;
+}
+
+/* =============
+  Overall card
+================ */
+
+.card {
+	width: 90%;
+	background-color: #ffffff;
+	border-radius: 20px;
+	overflow: hidden;
+	box-shadow: 0 30px 40px hsl(185, 75%, 30%);
+}
+
+.card__pattern-card {
+	background-image: url("images/bg-pattern-card.svg");
+	min-height: 10rem;/
+}
+
+/* =============
+  Profile photo
+================ */
+
+.card__profile-photo {
+	position: absolute;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	border-radius: 50%;
+	border: 5px solid white;
+
+}
+
+/* ====================
+  Profile information
+====================== */
+
+.card__name-and-age {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 4.5rem;
+}
+
+.card__name {
+	font-size: 1.125rem;
+	margin-right: .75rem;
+}
+
+.card__personal-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card__location {
+	margin-top: .4rem;
+	margin-bottom: 1.5rem;
+	font-size: 1rem;
+}
+
+.card__location, .card__age {
+	color: hsl(0, 0%, 59%);
+}
+
+/* =============
+  Stats
+================ */
+
+.card__stats-container {
+	padding: 1.5rem;
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+
+.card__separator {
+	width: 100%;
+	height: .1px;
+	background-color: hsl(0, 0%, 90%);
+}
+
+.card__stats-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card__stat {
+	font-weight: 700;
+	margin-bottom: .25rem;
+}
+
+.card__stat-category {
+	font-size: .75rem;
+	color: hsl(0, 0%, 59%);
+}
+
+/* =============
+  Desktop view
+================ */
+
+
