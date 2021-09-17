@@ -63,20 +63,4 @@ I will continue to practice being familiar with HTML and CSS, particularly with 
 ### Useful resources
 
 - [Kevin Powell ::before and ::after psuedo elements](https://www.youtube.com/watch?v=djbtPnNmc0I) - Kevin Powell always does a great job explaining CSS concepts, and I learned a lot from this 3-part series on ::before and ::after and specific use cases. I also learned the trick for positioning an element based on a percentage of its width from this series.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
